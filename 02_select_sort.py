@@ -14,6 +14,7 @@ def selecet_sort(arr):
                 arr[j], arr[j + i] = arr[j + i], arr[j]
     print(arr)
 
+
 if __name__ == "__main__":
     arr = [1, 2, 1, 4, 67, 3, 7, 8, 6, 5, 5]
     selecet_sort(arr)
