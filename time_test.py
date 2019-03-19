@@ -27,4 +27,3 @@ def countdown(n):
 
 if __name__ == "__main__":
     countdown(100)
-

@@ -16,7 +16,16 @@ def bubble_sort(arr):
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
     print(arr)
 
+def bubble_sort2(arr):
+	n = len(arr)
+	for i in range(n):
+		for l in range(1,n-i):
+			if arr[i] > arr[i + l]:
+				arr[i],arr[i + l] = arr[i + l],arr[i]
+	print(arr)
+
 
 if __name__ == "__main__":
     arr = [3, 4, 2, 1, 5, 7, 4, 7]
+    bubble_sort2(arr)
     bubble_sort(arr)
